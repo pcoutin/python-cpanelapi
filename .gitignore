@@ -1,1 +1,4 @@
 *.pyc
+build/
+cpanelapi.egg-info/
+dist/
