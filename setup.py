@@ -72,7 +72,7 @@ class UploadCommand(Command):
         self.status('Pushing git tags…')
         os.system('git tag v{0}'.format(about['__version__']))
         os.system('git push --tags')
-        
+
         sys.exit()
 
 
@@ -96,8 +96,8 @@ setup(
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-	# Apache License 2.0 not listed yet:
-	# https://github.com/pypa/pypi-legacy/issues/91
+        # Apache License 2.0 not listed yet:
+        # https://github.com/pypa/pypi-legacy/issues/91
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
         'Programming Language :: Python :: Implementation :: CPython',
